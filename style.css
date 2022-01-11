@@ -1,9 +1,9 @@
 body {
   background-color: black;
-  line-height: 1;
 }
 .header {
   font-size: 100px;
+  height: auto;
   font-family: 'Gaegu', cursive;
   text-align: center;
   color: white;
@@ -11,11 +11,11 @@ body {
 }
 .menu {
   text-align: center;
-  line-height: 1px;
+  line-height: .1;
   font-size: 60px;
   font-family: 'Shizuru', cursive;
   color: white;
-  padding: 10px;
+  padding: 1px;
 }
 img.indexr {
   max-width: 15%;
