@@ -13,6 +13,21 @@ body {
   font-size: 60px;
   font-family: 'Shizuru', cursive;
   color: white;
+  padding: 10px;
+}
+img.indexr {
+  max-width: 15%;
+  height: auto;
+  border: 5px solid white;
+  padding: 10px;
+  float: right;
+}
+img.indexl {
+  max-width: 15%;
+  height: auto;
+  border: 5px solid white;
+  padding: 10px;
+  float: left;
 }
 
 /* Fonts Used: EB Garamond, Fasthand (Cursive), Gloria Hallelujah (Cursive), Homemade Apple (Cursive),
