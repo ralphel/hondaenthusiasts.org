@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 .header {
-  font-size: 100px;
+  font-size: 10vw;
   height: auto;
   font-family: 'Gaegu', cursive;
   text-align: center;
@@ -19,7 +19,7 @@ body {
   padding: 10px;
 }
 img.mindex {
-  max-width: 25%;
+  max-width: 50%;
   height: auto;
   border: 5px solid white;
   padding: 10px;
