@@ -15,13 +15,33 @@ body {
   line-height: 1px;
   font-size: 60px;
   color: white;
-  padding: 60px;
+  padding: 3px;
   line-height: 1; 
+}
+.link1 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  line-height: 1px;
+  font-size: 40px;
+  color: white;
+  padding: 60px;
+  line-height: 1.5; 
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 .menu {
   text-align: center;
-  word-spacing: 0px;
-  line-height: .1;
+  word-spacing: 1px;
+  line-height: 1.4;
   font-size: 60px;
   font-family: 'Shizuru', cursive;
   color: white;
@@ -50,6 +70,13 @@ img.standard {
   padding-right: auto;
   padding-left: auto;
 }
+img.home {
+  max-width: 5%;
+  height: auto;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
 .copyright {
   font-family: 'EB Garamond', serif;
   text-align: center;
@@ -58,7 +85,11 @@ img.standard {
   color: white;
   padding: 30px;
   line-height: 1;
-
 }
+.spacer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* Fonts Used: EB Garamond, Fasthand (Cursive), Gloria Hallelujah (Cursive), Homemade Apple (Cursive),
 Indie Flower (Cursive), Shizuru (Cursive) Gaegu (Cursive) */
