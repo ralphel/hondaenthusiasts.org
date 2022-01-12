@@ -9,6 +9,15 @@ body {
   color: white;
   line-height: 1.4;
 }
+.text1 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  line-height: 1px;
+  font-size: 60px;
+  color: white;
+  padding: 60px;
+  line-height: 1; 
+}
 .menu {
   text-align: center;
   word-spacing: 0px;
@@ -31,6 +40,15 @@ img.indexl {
   border: 5px solid white;
   padding: 10px;
   float: left;
+}
+img.standard {
+  max-width: 20%;
+  height: auto;
+  border: 5px solid white;
+  padding: 10px;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
 }
 .copyright {
   font-family: 'EB Garamond', serif;
