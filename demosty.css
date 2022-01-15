@@ -3,7 +3,22 @@ body {
   color: white;
   font-family: 'Gaegu', cursive;
 }
-
+img.home {
+  max-width: 5%;
+  height: auto;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
+.copyright {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  line-height: 1px;
+  font-size: 20px;
+  color: white;
+  padding: 30px;
+  line-height: 1;
+}
 .player {
   height: 95vh;
   display: flex;
@@ -112,11 +127,4 @@ i.fa-volume-down, i.fa-volume-up {
 
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
-}
-img.home {
-  max-width: 5%;
-  height: auto;
-  display: block;
-  padding-right: auto;
-  padding-left: auto;
 }
