@@ -22,7 +22,7 @@ let curr_track = document.createElement('audio');
 let track_list = [
   {
     name: "free hugs (old)",
-    image: "demos1.jpeg",
+    image: "demos1.png",
     path: "demos/0_freehug.m4a"
   },
   {
@@ -37,22 +37,22 @@ let track_list = [
   },
   {
     name: "the pilot (old)",
-    image: "demos1.jpeg",
+    image: "demos4.jpeg",
     path: "demos/0_thepilot.m4a",
   },
   {
     name: "ridgeline (old)",
-    image: "demos2.jpeg",
+    image: "demos5.jpeg",
     path: "demos/0_ridgeline.m4a",
   },
   {
     name: "thathat (old)",
-    image: "demos3.jpeg",
+    image: "demos6.jpeg",
     path: "demos/0_thathat.m4a",
   },
   {
     name: "bitch day (old)",
-    image: "demos1.jpeg",
+    image: "demos7.jpeg",
     path: "demos/0_bitchday.m4a",
   },
 ];
