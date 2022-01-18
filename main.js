@@ -21,14 +21,14 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
-    name: "free hugs (old)",
+    name: "free hugs",
     image: "demos1.png",
-    path: "demos/0_freehug.m4a"
+    path: "demos/1_freehugs.WAV"
   },
   {
-    name: "french curler (old)",
+    name: "french curler",
     image: "demos2.jpeg",
-    path: "demos/0_french.m4a"
+    path: "demos/1_frenchcurler.WAV"
   },
   {
     name: "liverpool (old)",
