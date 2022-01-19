@@ -138,3 +138,22 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   padding: 0px;
   line-height: 1; 
 }
+
+.img__description {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 20px;
+}

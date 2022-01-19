@@ -74,7 +74,6 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-
 a:visited {
   color: white;
   background-color: transparent;
@@ -140,6 +139,23 @@ img.home {
 .spacer {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+.img__description {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s, visibility .2s;
+}
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 20px;
 }
 
 /* Fonts Used: EB Garamond, Fasthand (Cursive), Gloria Hallelujah (Cursive), Homemade Apple (Cursive),
