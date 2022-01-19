@@ -18,12 +18,22 @@ body {
   color: white;
   padding: 10px;
 }
+.link1 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  line-height: 1px;
+  font-size: 40px;
+  color: white;
+  padding: 60px;
+  line-height: 1.5;
+  margin-left: 15%;
+  margin-right: 15%;
+}
 a:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
-
 a:visited {
   color: white;
   background-color: transparent;
@@ -31,6 +41,38 @@ a:visited {
 }
 img.mindex {
   max-width: 50%;
+  border: 5px solid white;
+  padding: 10px;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
+img.home {
+  max-width: 5%;
+  height: auto;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
+img.socials {
+  max-width: 70%;
+  height: auto;
+  padding: 5px;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
+img.socials2 {
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
+img.standard {
+  max-width: 30%;
+  height: auto;
   border: 5px solid white;
   padding: 10px;
   display: block;
@@ -50,6 +92,23 @@ img.mindex {
 .spacer {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.img__description {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s, visibility .2s;
+}
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  font-size: 20px;
 }
 /* Fonts Used: EB Garamond, Fasthand (Cursive), Gloria Hallelujah (Cursive), Homemade Apple (Cursive),
 Indie Flower (Cursive), Shizuru (Cursive) Gaegu (Cursive) */
