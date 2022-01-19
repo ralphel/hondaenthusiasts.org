@@ -16,7 +16,7 @@ body {
   font-size: 60px;
   color: white;
   padding: 3px;
-  line-height: 1; 
+  line-height: 1;
 }
 .text2 {
   font-family: 'EB Garamond', serif;
@@ -25,7 +25,7 @@ body {
   font-size: 25px;
   color: white;
   padding: 3px;
-  line-height: 1.4; 
+  line-height: 1.4;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -36,7 +36,7 @@ body {
   font-size: 35px;
   color: white;
   padding: 3px;
-  line-height: 1.4; 
+  line-height: 1.4;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -47,7 +47,7 @@ body {
   font-size: 30px;
   color: white;
   padding: 3px;
-  line-height: 1.4; 
+  line-height: 1.4;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -65,9 +65,9 @@ body {
   font-size: 40px;
   color: white;
   padding: 60px;
-  line-height: 1.5; 
-  margin-left: 7%;
-  margin-right: 7%;
+  line-height: 1.5;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 a:link {
   color: white;
@@ -107,6 +107,22 @@ img.standard {
   height: auto;
   border: 5px solid white;
   padding: 10px;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
+img.socials {
+  max-width: 40%;
+  height: auto;
+  padding: 5px;
+  display: block;
+  padding-right: auto;
+  padding-left: auto;
+}
+img.socials2 {
+  max-width: 70%;
+  height: auto;
+  padding: 5px;
   display: block;
   padding-right: auto;
   padding-left: auto;
