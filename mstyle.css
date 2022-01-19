@@ -55,7 +55,7 @@ img.home {
   padding-left: auto;
 }
 img.socials {
-  max-width: 70%;
+  max-width: 120%;
   height: auto;
   padding: 5px;
   display: block;
@@ -63,7 +63,7 @@ img.socials {
   padding-left: auto;
 }
 img.socials2 {
-  max-width: 100%;
+  max-width: 150%;
   height: auto;
   padding: 5px;
   display: block;
