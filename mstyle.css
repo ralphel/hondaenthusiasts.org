@@ -30,7 +30,7 @@ body {
   font-family: 'EB Garamond', serif;
   text-align: center;
   line-height: 1px;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   line-height: 1.5;
 }
@@ -60,7 +60,7 @@ img.home {
   padding-left: auto;
 }
 img.socials {
-  max-width: 100%;
+  max-width: 85%;
   max-height: auto;
 }
 img.standard {
