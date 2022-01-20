@@ -24,10 +24,15 @@ body {
   line-height: 1px;
   font-size: 40px;
   color: white;
-  padding: 60px;
   line-height: 1.5;
-  margin-left: 15%;
-  margin-right: 15%;
+}
+.link2 {
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  line-height: 1px;
+  font-size: 50px;
+  color: white;
+  line-height: 1.5;
 }
 a:link {
   color: white;
@@ -55,14 +60,8 @@ img.home {
   padding-left: auto;
 }
 img.socials {
-  max-width: 120%;
+  max-width: 100%;
   max-height: auto;
-  padding: 5px;
-}
-img.socials2 {
-  max-width: 110%;
-  max-height: auto;
-  padding: 5px;
 }
 img.standard {
   max-width: 30%;
