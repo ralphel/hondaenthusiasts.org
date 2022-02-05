@@ -71,7 +71,7 @@ function loadTrack(track_index) {
 
   track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
   track_name.textContent = track_list[track_index].name;
-  now_playing.textContent = "~ playing " + (track_index + 1) + " of " + track_list.length + " demos availible ~";
+  now_playing.textContent = "~ playing " + (track_index + 1) + " of " + track_list.length + " demos available ~";
 
   updateTimer = setInterval(seekUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
