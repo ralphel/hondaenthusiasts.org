@@ -9,12 +9,6 @@ body {
   color: white;
   line-height: 1.1;
 }
-.aboutc {
-  transition: .2s;
-}
-.aboutc:hover {
-  transform: rotateY(150deg);
-}
 .text1 {
   font-family: 'EB Garamond', serif;
   text-align: center;
