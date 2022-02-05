@@ -23,7 +23,12 @@ let track_list = [
   {
     name: "free hugs",
     image: "demos1.png",
-    path: "demos/1_freehugs.WAV"
+    path: "demos/2_freehugs.m4a"
+  },
+  {
+    name: "the cool part",
+    image: "demos8.jpeg",
+    path: "demos/0_coolpart.m4a"
   },
   {
     name: "french curler",
@@ -146,5 +151,3 @@ function seekUpdate() {
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
 }
-
-
